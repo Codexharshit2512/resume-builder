@@ -1,0 +1,14 @@
+.educations_list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow-y: auto;
+  max-height: 40rem;
+  margin-bottom: 2rem;
+  // border: 2px solid;
+}
+
+.education_form {
+  width: 50vw;
+  padding: 1rem;
+}

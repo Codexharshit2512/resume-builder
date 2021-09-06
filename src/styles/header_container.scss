@@ -1,0 +1,22 @@
+.header_container {
+  padding: 0 1rem;
+  display: flex;
+  box-shadow: 1px 1px 7px;
+  height: 8vh;
+  .links {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .logo > img {
+    object-fit: contain;
+    width: 60px;
+    height: 60px;
+  }
+
+  .nav_link {
+    display: flex;
+    align-items: center;
+    margin-left: 2rem;
+  }
+}

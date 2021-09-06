@@ -1,0 +1,113 @@
+.skin3_container {
+  height: 85vh;
+  padding: 1rem;
+  background-color: white;
+  margin: 0 auto;
+  border-radius: 3px;
+  box-shadow: 1px 1px 1px;
+  p {
+    margin: 0 !important;
+  }
+  .skin3_header {
+    display: flex;
+  }
+  .skin3_initials {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 0.7rem;
+    p {
+      font-size: 20px;
+    }
+    p:last-child {
+      align-self: flex-end;
+    }
+    height: 4.4rem;
+    width: 4.4rem;
+    background-color: #000;
+    text-transform: uppercase;
+
+    color: white;
+    font-weight: 600;
+    position: relative;
+    &::after {
+      content: "";
+      display: block;
+      position: absolute;
+      width: 2px;
+      top: 0;
+      bottom: 0;
+      left: 49%;
+      z-index: 999;
+      background-color: #fff;
+      transform: rotate(45deg);
+    }
+  }
+
+  ul {
+    padding-left: 1rem;
+  }
+  p,
+  li {
+    line-height: 1.4 !important;
+    font-size: 13px;
+  }
+  font-size: 14px;
+  .skin3_contacts {
+    display: flex;
+    flex-wrap: wrap;
+    p {
+      font-size: 10px !important;
+      // margin-left: 0.4rem;
+    }
+    margin-top: 0.8rem;
+  }
+
+  .skin3_section {
+    margin-top: 1.2rem;
+  }
+
+  //   .skin3_content {
+  //   }
+
+  .skin3_subheading {
+    flex: 1;
+    font-size: 17px;
+    color: #000;
+    font-weight: 800;
+  }
+
+  .skin3_content {
+    flex: 3;
+    margin-left: 1rem;
+  }
+
+  .skin3_skills {
+    display: flex;
+    flex-wrap: wrap;
+    // justify-content: center;
+    li {
+      flex-basis: 30%;
+    }
+  }
+  li {
+    list-style-type: square;
+  }
+
+  .skin3_exp {
+    margin-top: 1rem;
+    &:first-child {
+      margin-top: 0;
+    }
+  }
+
+  .skin3_small_txt {
+    font-size: 11px;
+    color: #597181;
+    font-weight: 500;
+  }
+
+  .skin3_flex {
+    display: flex;
+    justify-content: space-between;
+  }
+}

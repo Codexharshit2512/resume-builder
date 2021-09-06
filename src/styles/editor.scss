@@ -1,0 +1,34 @@
+.editor_input {
+  height: 10rem !important;
+  //   border: 2px solid;
+  overflow-y: auto !important;
+  background-color: #f2f5fa;
+}
+
+.editor_toolbar {
+  background-color: #f2f5fa !important;
+}
+
+.editor_wrapper_custom {
+  position: relative;
+  background-color: #f2f5fa;
+  &::before {
+    content: "";
+    display: block;
+    height: 2px;
+    width: 100%;
+    background: linear-gradient(45deg, #1dbfaf 0, #1eaedb 85%, #1eaedb 100%);
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: 999;
+    transition: transform 200ms ease-out;
+    transform: scale(0, 0);
+  }
+  &:focus-within {
+    &::before {
+      transform: scale(1, 1);
+    }
+  }
+}

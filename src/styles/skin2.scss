@@ -1,0 +1,87 @@
+.skin2_container {
+  height: 85vh;
+  padding: 1rem;
+  background-color: white;
+  margin: 0 auto;
+  border-radius: 3px;
+  box-shadow: 1px 1px 1px;
+  p {
+    margin: 0 !important;
+  }
+  .skin2_header {
+    display: flex;
+  }
+  .skin2_initials {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 4rem;
+    width: 4rem;
+    background-color: #449cff;
+    text-transform: uppercase;
+    font-size: 19px;
+    color: white;
+    font-weight: 600;
+  }
+  .skin2_contacts_container {
+    flex: 4;
+    margin-left: 1rem;
+  }
+  ul {
+    padding-left: 1rem;
+  }
+  p,
+  li {
+    line-height: 1.4 !important;
+    font-size: 13px;
+  }
+  font-size: 14px;
+  .skin2_contacts {
+    display: flex;
+    flex-wrap: wrap;
+    p {
+      font-size: 10px !important;
+      // margin-left: 0.4rem;
+    }
+  }
+
+  .skin2_section {
+    display: flex;
+    margin-top: 1rem;
+  }
+
+  .skin2_subheading {
+    flex: 1;
+    font-size: 17px;
+    color: #449cff;
+    font-weight: 800;
+  }
+
+  .skin2_content {
+    flex: 3;
+    margin-left: 1rem;
+  }
+
+  .skin2_skills {
+    display: flex;
+    flex-wrap: wrap;
+    // justify-content: center;
+    li {
+      flex-basis: 40%;
+    }
+  }
+
+  .skin2_exp {
+    margin-top: 1rem;
+    &:first-child {
+      margin-top: 0;
+    }
+  }
+
+  .skin2_small_txt {
+    font-size: 11px;
+    color: #597181;
+    font-weight: 500;
+  }
+}

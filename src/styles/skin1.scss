@@ -1,0 +1,75 @@
+.skin1_container {
+  height: 85vh;
+  padding: 1rem;
+  background-color: white;
+  margin: 0 auto;
+  border-radius: 3px;
+  box-shadow: 1px 1px 1px;
+  p {
+    margin: 0 !important;
+  }
+  ul {
+    padding-left: 1rem;
+  }
+  p,
+  li {
+    line-height: 1.2 !important;
+    font-size: 13px;
+  }
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  .skin1_heading {
+    color: #6ca8be;
+    text-transform: uppercase;
+    text-align: center;
+  }
+  .skin1_contacts_container {
+    display: flex;
+    justify-content: center;
+    .skin1_contacts {
+      justify-content: center;
+      p {
+        font-size: 10px !important;
+      }
+
+      display: flex;
+      flex-wrap: wrap;
+      width: 50%;
+    }
+  }
+
+  .skin1_subheading {
+    font-size: 17px;
+    font-weight: 600;
+    padding-bottom: 0.2rem;
+    border-bottom: 1px solid;
+    text-align: center;
+  }
+
+  .skin1_section {
+    margin: 1rem;
+  }
+
+  .skin1_skills {
+    display: flex;
+    flex-wrap: wrap;
+    // justify-content: center;
+    li {
+      flex-basis: 22%;
+    }
+  }
+
+  .skin1_exp {
+    margin-top: 1rem;
+  }
+
+  .skin1_small_txt {
+    font-size: 11px;
+    color: #597181;
+    font-weight: 500;
+  }
+
+  .skin1_res {
+    margin-left: 1rem;
+  }
+}
